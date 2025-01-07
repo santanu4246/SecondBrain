@@ -4,4 +4,6 @@ import { UserController } from "../controller/user.controller"
 const usercontroller = new UserController()
 const router = Router()
 
-router.post("/signup", usercontroller.userSignup)
+router.post("/api/signup", usercontroller.userSignup)
+
+export default router
